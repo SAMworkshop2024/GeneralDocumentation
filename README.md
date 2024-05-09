@@ -6,7 +6,15 @@ This is a high-level repository to connect and discribe the general use of repos
 - [code](https://github.com/SAMworkshop2024/code): This is the main working repository. Will do the bulk if not all of the work.
 - [aostools](https://github.com/SAMworkshop2024/aostools): includes hopefully useful postprocessing code. All functions are in [aostools.climate](https://github.com/SAMworkshop2024/aostools/climate.py). Useful functions could be:
     - `ClimateIndex()`: Can be used to compute flavors of ENSO, IOD, and SAM. Note that this function has not been benchmarked against other methods or functions. While care has been taken to try and follow best practices such as UCAR climatedata guidance, there might always be bugs.
+    - `StatTest()`: Perform various standard statistical significance tests. This can be run in parallel.
+    - `Anomaly()`: Compute an anomaly without having to type .groupby(time.dayofyear) or similar all the time.
+    - `Standardize()`: Similar but also divide by standard deviation.
     - `Projection()`: Create a cartopy-enabled figure with one or several panels. Tries to make it easier to plot data on maps.
+    - `StandardGrid()`: Rename longitude,latitude,pressure to 'lon','lat','pres' and make sure latitude is from -90 to 90 and longitude from 0 to 360.
+    - `AddPanelLabels()`: Adds a),b),c)... labels to multi-panel figures.
+    - `AddColorbar()`: Adds one common colorbar to a figure with multiple panels.
+    - `LogPlot()`: Transforms the y-axis from linear into inverted log (of course, this is with pressure coordinates in mind). Also transforms axis labels to something more legible.
+    - and loads more....
 
  ## Best practice
 
