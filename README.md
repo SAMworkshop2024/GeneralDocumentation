@@ -22,3 +22,7 @@ This is a high-level repository to connect and discribe the general use of repos
  2. Try to minimise code duplication. Re-using once might be acceptable, twice is too much. Create a function for a task which is re-used more than once. I suggest adding a file called `functions.py` which will contain such functions.
  3. Existing code is welcome, and one can build on it. Otherwise, we go back to point 2., and honestly, who ever wants to go back to point 2.?
     
+## Documentation
+- [CLEX CMS git tutorial](https://youtu.be/Z7kMhD0QiZE?si=zC6QX37saQZv9_Dn)
+- [GitHub Docs](https://docs.github.com/en) and [getting started](https://docs.github.com/en/get-started)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
